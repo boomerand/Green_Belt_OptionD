@@ -1,0 +1,43 @@
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	background-color: initial;
+	background-image:url('../images/light_grey.png') !important;
+	background-repeat: repeat;
+}
+.errors {
+	color:red;
+}
+.poll-container {
+	border:1px solid #cecece;
+	border-radius: 6px;
+	padding:15px 20px;
+	margin:20px 0 30px;
+}
+.poll {
+	border-bottom:1px solid #cecece;
+}
+.poll input[type="submit"] {
+	margin-top:10px;
+}
+#container {
+	width:800px;
+	margin:25px auto;
+	border:1px solid #cecece;
+	padding:0 30px 25px;
+	border-radius:6px;
+	background-color: white;
+}
+#cancel {
+	margin-top:-98px;
+	margin-left:120px;
+}
+#add-btn {
+	margin-top:25px;
+	padding:3px;
+}
+#success {
+	margin:10px 0;
+}
